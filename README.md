@@ -11,7 +11,7 @@ b) Set Jenkins as SUDO rights
 
 c) Build docker image
 
-    sudo docker build -t cypresshouse .
+    sh "sudo docker build -t cypresshouse ."
 
 d) Execute Tests
 
