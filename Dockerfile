@@ -9,4 +9,4 @@ COPY        fixtures /usr/src/app/fixtures/
 COPY        plugins /usr/src/app/plugins/
 COPY        support /usr/src/app/support/
 COPY        tests /usr/src/app/tests/
-CMD         npx cypress run
+CMD         npx cypress run --browser chrome
