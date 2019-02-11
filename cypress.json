@@ -1,6 +1,6 @@
 {
     "animationDistanceThreshold": 5,
-    "baseUrl": null,
+    "baseUrl": "https://www.etuovi.com/",
     "blacklistHosts": null,
     "chromeWebSecurity": false,
     "defaultCommandTimeout": 4000,
