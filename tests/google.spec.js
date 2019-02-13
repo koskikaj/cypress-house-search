@@ -7,10 +7,10 @@
   //Sivu jota testataan  
   cy.visit('http://www.google.com/')
   //Kirjoita google hakuun Digia	
-  cy.get('input[name="q"]').type('Digia Helsinki')
+	cy.get('input[title="Haku"]').type('Digia Helsinki')
   //Klikataan google-haku nappia
-  cy.contains('Google-haku').click()
+	cy.contains('Google-haku').click()
   //Assert
-  cy.contains('Osoite:').next().should('contain', 'Atomitie')
+	cy.contains('Osoite:').next().should('contain', 'Astomitie')
   })
 })
